@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>SWU Information Security</title>
+  <meta name="Author" content="HTML-14">
+  <meta name="Description" content="이 페이지는 보안의 중요성을 알리고자 만든 페이지입니다.">
+</head>
+<body>
+<div class="wrap">
+  <!-- header -->
+  <div class="header">
+    <nav>
+      <h1 class="logo">SWU Information Security Collection</a></h1>
+        <ul>
+          <li>
+            <a href="#">Information news</a>
+            <ul>
+              <li><a href="https://www.boannews.com/Default.asp">보안뉴스</a></li>
+              <li><a href="https://dailysecu.com/">데일리 시큐</a></li>
+              <li><a href="https://www.ahnlab.com/kr/site/securityinfo/securityinfoMain.do">AhnLab</a></li>
+              <li><a href="https://threatpost.com/">Threatpost</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">CTF</a>
+            <ul>
+              <li><a href="http://wargame.kr/">wargame</a></li>
+              <li><a href="https://pwnable.kr/">pwanable</a></li>
+              <li><a href="https://webhacking.kr/">webhacking</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="http://www.swu.ac.kr/www/futured_1.html">SWU's Information Security</a>
+          </li>
+        </ul>
+        <!-- 구글 입력창 부분 -->
+        <form  method="get" action="https://www.google.com/search" target="_blank">
+              <input type="text" name="q" size="25" maxlength="255" value="">
+              <button class="button" type="submit" name="btng" value="Google 검색">Search</button>
+          </form>
+          <!-- /구글 입력창 부분 -->
+    </nav>
+    <div  id="#carousel" class="carousel slide" data-ride="carousel">
+      <!-- 1,2,3부분은 slide 숫자를 각각 의미함  -->
+      <ol>
+        <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#Carousel" data-slide-to="1"></li>
+            <li data-target="#Carousel" data-slide-to="2"></li>
+      </ol>
+      <!-- / 즉, 슬라이드 밑부분에 누르면 원하는 페이지로 넘어가는 부분을 구현함 -->
+      <!-- 각각 3개의 슬라이드 부분을 구현함. img는 background로 들어가고 text는 img위에 나타나는 모습을 위해 작성하였다. -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="https://www.ndsl.kr/ndsl/commons/util/imgFileView.do?fileNm=B20161117012606368.jpg&folderNm=&gubun=issue" alt="보안에 취약한 비밀번호의 형태" width="100%" height="500">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>보안의 취약한 비밀번호는 어떤 형태일까?</h1>
+              <p>해킹 당하기 쉬운 습관 중 하나는 바로 단순한 형태의 비밀번호를 사용하는 것이다. 그렇다면 제 3자가 눈치챌 만큼 쉬운 비밀번호의 형태에는 무엇이 있을까?</p>
+              <p><a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1004843013" role="button" >알아보러 가기</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://ppss.kr/wp-content/uploads/2017/08/0-36-549x412.jpg" alt="이메일 2단계 인증제도" width="100%" height="500">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>당신의 이메일은 안전한가?</h1>
+              <p>이메일은 큰 사이버 범죄로 이어질 수 있는 하나의 수단이다. 따라서 여러 회사들은 해커로부터 이용자들을 보호하기 위해 2단계 인증제도를 도입하였다. 2단계 인증제도란 2단계 인증이 켜진 상태에서 이메일 앱은 사용자가 로그인할 때 추가 코드를 요청하는 것을 의미한다. 특히, 사용자가 로그인 ID와 비밀번호를 입력할 때마다 이메일 앱은 비밀 코드를 문자 메시지로 전송한다. 이메일에 액세스하기 위해서는 사용자가 이 코드를 입력해야 한다. 그렇다면 당신의 이메일 2단계 스위치는 켜져있을까? </p>
+              <p><a href="https://mail.google.com/mail/" role="button">Gmail 바로가기</a></p>
+              <p><a href="https://mail.naver.com/" role="button" >Naver 이메일 바로가기</a></p>
+              <p><a href="https://mail.daum.net/" role="button">Daum 이메일 바로가기</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://www.ndsl.kr/ndsl/commons/util/imgFileView.do?fileNm=B20170328104752379_thum.jpg&folderNm=201703&gubun=issue" alt="공공 와이파이의 문제점과 해결책" width="100%" height="500">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>'공공 와이파이' 무조건 고마운 존재일까?</h1>
+              <p>사람들은 공공장소에서 공공 와이파이에 연결하여 인터넷을 사용하는 습관에 익숙해져버렸다. 그러나 '공공' 이라는 두 글자는 보안과 친숙하지 않은 단어이다. 쉽게 말해, 보안상 많은 위험성을 동반하고 있다는 것이라고 할 수 있다. 그렇다면 우리는 무작정 공공 와이파이를 써서는 안될까? </p>
+              <p><a href="http://www.digitaltoday.co.kr/news/articleView.html?idxno=119604" role="button">해결방안 알아보기</a></p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /3개의 슬라이드 코드 끝나는 부분 -->
+      <!-- 밑에 prev와 next는 슬라이드 양옆에 다음 슬라이드로 넘어가게 해주는 기능을 위해 작성하였다. -->
+      <a class="prev" href="#Carousel" role="button" data-slide="prev">
+        <span class="prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="next" href="#Carousel" role="button" data-slide="next">
+        <span class="next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!-- /prev, next 구현코드 끝나는 부분 -->
+    </div>
+  </div>
+  <!-- /header -->
+  <!-- container -->
+  <div class="container">
+    <h1>악명높은 해킹사건들</h1>
+    <section class="hacking1">
+      <h2>2003년 1.25 인터넷 대란</h2>
+      <p>오후 2시경부터 전국의 인터넷 망이 마비되는 사건이 발생했다. 2003년이라면 이미 한국의 인터넷 보급률이 세계 1~2위를 다투던 때였음에도 불구하고 유선 인터넷은 물론 무선 인터넷과 행정 전산망까지 모두 불통되는 사상 초유의 사태가 발생하였다. DNS(도메인 네임 시스템) 서버에 대량의 데이터가 유입되기 시작한 것이 원인이 되어 사용자가 정확한 사이트 이름을 주소 창에 적어도, DNS 서버가 마비되니 페이지를 찾을 수 없다는 응답만 받게 되었다. 사건의 주범은 슬래머(Slammer)라는 이름의 웜바이러스였다. 윈도우 서버 2000의 SQL 취약점을 악용해 증식하며 네트워크 과부하를 일으키는 컴퓨터 바이러스였다. 슬래머는 한국만이 아니라 미국과 영국 등 세계 여러 나라에서 피해를 일으킴으로써 세계 인터넷 시장을 마비시켰다.</p>
+      <img src="https://images.idgesg.net/images/article/2019/10/cso_cybersecurity_cyber_attack_warning_danger_threat_hack_by_matejmo_gettyimages-486818926_2400x1600-100813827-large.jpg" alt="2003년 1.25 인터넷 대란" width="500" height="500">
+    </section>
+    <hr>
+    <section class="hacking2">
+      <h2>미국 대형 양판점인 타깃(Target) 사건</h2>
+      <p>2013년 11월 27일∼12월 15일까지 미국 내 타깃(target) 매장 1,797개가 해킹 당했다. 이로 인해 POS 시스템에 기록된 4,000만 건에 달하는 신용카드와 직불카드 정보 외에 7,000만 건에 달하는 주소와 전화번호, 이메일 주소 같은 개인 정보가 유출됐다. 이 사건은 해커가 POS 시스템에 설치한 악성코드가 계산대에서 이용되는 카드 리더기에 침투, 카드를 읽을 때마다 카드 정보를 훔쳐 타깃 서버에 업로드하는 방식으로 이루어졌다고 한다.</p>
+      <img src="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F215C6F4D5604A040090509" alt="타깃(target) 해킹 사건" width="500" height="500">
+    </section>
+    <hr>
+    <section class="hacking3">
+      <h2>‘Facebook 해킹 사건: 3만 5000개의 한국인 계정정보 유출’</h2>
+      <p> 2018년 페이스북 해킹 사건으로 약 2900만 명 사용자들의 개인정보가 유출된 것으로 알려졌다. 그중 한국에서 3만5000개에 이르는 개인정보 유출 피해가 발생한 것으로 집계됐다. 성명, 이메일 주소, 전화번호 등 기본 정보가 유출된 계정은 1만5623건, 기본 정보에 더해 특정 프로필 정보(성별, 지역, 결혼 상태, 종교, 출신지, 생년월일 등)까지 유출된 계정은 1만8856개, 기본 정보 및 특정 프로필 정보에 추가 정보(타임라인의 게시물, 친구 목록, 소속 그룹, 최근 메시지 대화명 등)까지 유출된 계정은 412건 등으로 집계됐다.이 사태에 대해 페이스북 측은 해커들이 페이스북 네트워크에 침투해 계정 접근권(액세스 토큰)을 덮어쓰는 수법으로 2900만 명의 개인정보를 탈취해 갔다고 주장했다.</p>
+      <img src="https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2020%2F03%2Ffacebook-messenger-location-battery-status-sharing-fuction-0-1.jpg?q=90&w=1400&cbr=1&fit=max" alt="facebook 해킹 사건" width="500" height="500">
+    </section>
+    <hr>
+  </div>
+  <!-- /container -->
+  <!-- footer -->
+<footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy;2020 GURU1 HTML-14&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</html>
